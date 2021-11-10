@@ -15,7 +15,7 @@
 <!--   *********************  HEADING START *********************   --> 
     
     <div class="heading">
-      <h3 class='name'>First Name / Last Name <br> First Name / Last Name <br>...</h3> 
+      <h3 class='name'>Ankeen Arestakesyan <br> First Name / Last Name <br>...</h3> 
       <h3 class=pId>PID: A12345678 <br> PID: A12345678 <br>...</h3>
             
       <h1>ECE 5 Website</h1> <!-- h1 is heading 1 -->
@@ -208,6 +208,22 @@
         </div> <!-- This is the end of div interactive -->
       </div> <!-- This is the end of div box1 -->
       
+<!----------------------------------------  BUTTON 7 ---------------------------------------->
+      
+      <div class ='center'>
+        <button type='button' onclick="toggleText7()" class="btn">New Button</button>
+      </div> <!--end of div class center -->
+      
+      <div class="interactive" id='interactive7' style='display: none'>
+        <div class='box1'>
+          <br>
+          <p class='box2'>
+            description text
+          </p> <!-- p is paragraph -->
+            <br>
+        </div> <!-- This is the end of div interactive -->
+      </div> <!-- This is the end of div box1 --> 
+      
 <!--   *********************  BUTTONS END *********************   --> 
       
 <!--   ////////////////////////////////////////////////////////////////////////////////////////////////   --> 
@@ -270,6 +286,15 @@
     
     function toggleText6(text) {
       var text = document.getElementById("interactive6");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+    
+    function toggleText7(text) {
+      var text = document.getElementById("interactive7");
       if (text.style.display === "none") {
         text.style.display = "block";
       } else {

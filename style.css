@@ -1,9 +1,6 @@
 body{
-  background-image: url('https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png'); /*Seeting the background image. Ypu can change this by changing the link!*/ 
+  background-image: url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80'); /*Seeting the background image. Ypu can change this by changing the link!*/ 
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   margin: 0rem; /* see referance for how padding and margins apply */
   font-family: Verdana, sans-serif; /*You can change the font here*/
 }  
